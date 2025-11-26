@@ -20,13 +20,14 @@ Enter Username
 Enter Password
     [Arguments]    ${password}
     Input Text    ${PASSWORD_FIELD}    ${password}
-
+        
 Click Login Button
     Click Button    ${LOGIN_BUTTON}
 
 Verify Login Successful
     ${https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index}=    Get Location
     Should Contain    ${https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index}    dashboard
+
 
 
 

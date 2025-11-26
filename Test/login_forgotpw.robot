@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../pages/login_page/login.robot
+Resource    ../pages/login_page/login_forgetpw keyword.robot
 
 
 *** Test Cases ***
